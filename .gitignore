@@ -1,0 +1,27 @@
+# Build artifacts and temporary outputs
+build/
+**/build/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.o
+*.elf
+*.map
+*.bin
+!tests/fixtures/bootstrap-v1.bin
+!**/tests/fixtures/bootstrap-v1.bin
+*.ips
+!baseline/code.ips
+!**/baseline/code.ips
+*.bps
+*.gar
+*.dec.code
+*.asm
+*.dmp
+*.log
+
+releases/
+
+# Nintendo / external input binaries
+baseline/exheader.bin
+**/baseline/exheader.bin
